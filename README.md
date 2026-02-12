@@ -1,6 +1,6 @@
 # Flight-Code-Simulator
 
-"SendData" is Python script that reads from "flt__0015.csv" (old flight data) and sends the pressure at designated time intervals serially to the Arduino
+"SendData.py" is Python script that reads from "flt__0015.csv" (old flight data) and sends the pressure at designated time intervals serially to the Arduino
 
 The arduino runs "FlightCode - ReadData.ino", reads the pressure, turns it back into altitude, and identifies key points of the flight. The arduino then sends data back to be read into the Python Terminal, including these significant point detections
 
